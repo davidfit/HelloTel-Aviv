@@ -1,0 +1,89 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:18px;
+    height:100%;
+    margin:0px;
+    padding-top:40px;
+    text-transform:uppercase;
+    text-align: center;
+    width:100%;
+}
+
+
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+
+}
+
+
+
+#myImage{
+    width: 80%;
+}
+.hide
+{
+    display: none;
+}
+.show
+{
+    display: inline-block!important;
+}
+
+.button_app{
+border:1px solid #5acdcd;-webkit-box-shadow: #B4B5B5 3px 3px 3px  ;-moz-box-shadow: #B4B5B5 3px 3px 3px ; box-shadow: #B4B5B5 3px 3px 3px  ; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #85DADA; background-image: -webkit-gradient(linear, left top, left bottom, from(#85DADA), to(#399BB3));
+ background-image: -webkit-linear-gradient(top, #85DADA, #399BB3);
+ background-image: -moz-linear-gradient(top, #85DADA, #399BB3);
+ background-image: -ms-linear-gradient(top, #85DADA, #399BB3);
+ background-image: -o-linear-gradient(top, #85DADA, #399BB3);
+ background-image: linear-gradient(to bottom, #85DADA, #399BB3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#85DADA, endColorstr=#399BB3);
+}
+
+.button_app:hover{
+ border:1px solid #3abfbf;
+ background-color: #5ecece; background-image: -webkit-gradient(linear, left top, left bottom, from(#5ecece), to(#2d7a8c));
+ background-image: -webkit-linear-gradient(top, #5ecece, #2d7a8c);
+ background-image: -moz-linear-gradient(top, #5ecece, #2d7a8c);
+ background-image: -ms-linear-gradient(top, #5ecece, #2d7a8c);
+ background-image: -o-linear-gradient(top, #5ecece, #2d7a8c);
+ background-image: linear-gradient(to bottom, #5ecece, #2d7a8c);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#5ecece, endColorstr=#2d7a8c);
+}
